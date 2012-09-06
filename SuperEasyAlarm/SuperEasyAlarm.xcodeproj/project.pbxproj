@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3418401415EEE3C600CE7D91 /* bg_sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3418401315EEE3C600CE7D91 /* bg_sand.png */; };
+		3418401715EEE6EC00CE7D91 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3418401615EEE6EC00CE7D91 /* thumb.png */; };
+		3418401915EEEBCF00CE7D91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3418401815EEEBCF00CE7D91 /* Default@2x.png */; };
+		3478CFFF15AD3BE00060CF5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3478CFFE15AD3BE00060CF5D /* UIKit.framework */; };
+		3478D00115AD3BE00060CF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3478D00015AD3BE00060CF5D /* Foundation.framework */; };
+		3478D00315AD3BE00060CF5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3478D00215AD3BE00060CF5D /* CoreGraphics.framework */; };
+		3478D00915AD3BE00060CF5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3478D00715AD3BE00060CF5D /* InfoPlist.strings */; };
+		3478D00B15AD3BE00060CF5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3478D00A15AD3BE00060CF5D /* main.m */; };
+		3478D00F15AD3BE00060CF5D /* LJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3478D00E15AD3BE00060CF5D /* LJAppDelegate.m */; };
+		3478D01215AD3BE00060CF5D /* LJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3478D01115AD3BE00060CF5D /* LJViewController.m */; };
+		3478D01515AD3BE00060CF5D /* LJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3478D01315AD3BE00060CF5D /* LJViewController.xib */; };
+		3478D02C15AE8C310060CF5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3478D02B15AE8C310060CF5D /* AudioToolbox.framework */; };
+		3478D03415AE982E0060CF5D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3478D03315AE982E0060CF5D /* MediaPlayer.framework */; };
+		347E78CF15EEF9070075B051 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 347E78CE15EEF9070075B051 /* Icon.png */; };
+		347F3D1B15EC58A3008819B0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F3D1715EC5869008819B0 /* Icon@2x.png */; };
+		34AE857F15E5ACDF00D0B5A1 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 34AE857E15E5ACDF00D0B5A1 /* save.png */; };
+		34AE858715E6C2FC00D0B5A1 /* SoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE858615E6C2FC00D0B5A1 /* SoundModel.m */; };
+		34AE859E15E9DE3D00D0B5A1 /* SharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE859D15E9DE3C00D0B5A1 /* SharedViewController.m */; };
+		34F4518B15EF2B7700F74E4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F4518815EF2B7700F74E4F /* Default.png */; };
+		34F4518C15EF2B7700F74E4F /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F4518915EF2B7700F74E4F /* Icon~ipad.png */; };
+		34F4518D15EF2B7700F74E4F /* Icon~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F4518A15EF2B7700F74E4F /* Icon~ipad@2x.png */; };
+		34F4519015EF2E4500F74E4F /* Icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F4518E15EF2E4500F74E4F /* Icon~iphone.png */; };
+		34F4519115EF2E4500F74E4F /* Icon~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F4518F15EF2E4500F74E4F /* Icon~iphone@2x.png */; };
+		34F4519515EF308100F74E4F /* iTunesArtwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F4519415EF308100F74E4F /* iTunesArtwork.jpg */; };
+		34FD2B1015E4876B00B1C3F5 /* watchalarm.aif in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B0F15E4876B00B1C3F5 /* watchalarm.aif */; };
+		34FD2B1E15E4B6A300B1C3F5 /* pauseb.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B1C15E4B6A300B1C3F5 /* pauseb.png */; };
+		34FD2B1F15E4B6A300B1C3F5 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B1D15E4B6A300B1C3F5 /* start.png */; };
+		34FD2B2315E4F74D00B1C3F5 /* PresetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD2B2115E4F74D00B1C3F5 /* PresetViewController.m */; };
+		34FD2B2415E4F74D00B1C3F5 /* PresetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B2215E4F74D00B1C3F5 /* PresetViewController.xib */; };
+		34FD2B2B15E5014A00B1C3F5 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B2915E5014A00B1C3F5 /* Time.png */; };
+		34FD2B2C15E5014A00B1C3F5 /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B2A15E5014A00B1C3F5 /* Time@2x.png */; };
+		34FD2B2F15E5093900B1C3F5 /* preset.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B2D15E5093900B1C3F5 /* preset.png */; };
+		34FD2B3015E5093900B1C3F5 /* preset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FD2B2E15E5093900B1C3F5 /* preset@2x.png */; };
+		34FD2B3315E5153400B1C3F5 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD2B3215E5153400B1C3F5 /* TimeModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3418401315EEE3C600CE7D91 /* bg_sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_sand.png; sourceTree = "<group>"; };
+		3418401615EEE6EC00CE7D91 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		3418401815EEEBCF00CE7D91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3478CFFA15AD3BE00060CF5D /* SuperEasyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperEasyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3478CFFE15AD3BE00060CF5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3478D00015AD3BE00060CF5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3478D00215AD3BE00060CF5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3478D00615AD3BE00060CF5D /* SuperEasyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperEasyAlarm-Info.plist"; sourceTree = "<group>"; };
+		3478D00815AD3BE00060CF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3478D00A15AD3BE00060CF5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3478D00C15AD3BE00060CF5D /* SuperEasyAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperEasyAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		3478D00D15AD3BE00060CF5D /* LJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJAppDelegate.h; sourceTree = "<group>"; };
+		3478D00E15AD3BE00060CF5D /* LJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAppDelegate.m; sourceTree = "<group>"; };
+		3478D01015AD3BE00060CF5D /* LJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJViewController.h; sourceTree = "<group>"; };
+		3478D01115AD3BE00060CF5D /* LJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJViewController.m; sourceTree = "<group>"; };
+		3478D01415AD3BE00060CF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LJViewController.xib; sourceTree = "<group>"; };
+		3478D02B15AE8C310060CF5D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3478D03315AE982E0060CF5D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		347E78CE15EEF9070075B051 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		347F3D1715EC5869008819B0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		34AE857E15E5ACDF00D0B5A1 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		34AE858515E6C2FB00D0B5A1 /* SoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundModel.h; sourceTree = "<group>"; };
+		34AE858615E6C2FC00D0B5A1 /* SoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundModel.m; sourceTree = "<group>"; };
+		34AE859C15E9DE3C00D0B5A1 /* SharedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedViewController.h; sourceTree = "<group>"; };
+		34AE859D15E9DE3C00D0B5A1 /* SharedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedViewController.m; sourceTree = "<group>"; };
+		34F4518815EF2B7700F74E4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		34F4518915EF2B7700F74E4F /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		34F4518A15EF2B7700F74E4F /* Icon~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad@2x.png"; sourceTree = "<group>"; };
+		34F4518E15EF2E4500F74E4F /* Icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~iphone.png"; sourceTree = "<group>"; };
+		34F4518F15EF2E4500F74E4F /* Icon~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~iphone@2x.png"; sourceTree = "<group>"; };
+		34F4519415EF308100F74E4F /* iTunesArtwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iTunesArtwork.jpg; sourceTree = "<group>"; };
+		34FD2B0F15E4876B00B1C3F5 /* watchalarm.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = watchalarm.aif; sourceTree = "<group>"; };
+		34FD2B1C15E4B6A300B1C3F5 /* pauseb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseb.png; sourceTree = "<group>"; };
+		34FD2B1D15E4B6A300B1C3F5 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		34FD2B2015E4F74D00B1C3F5 /* PresetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetViewController.h; sourceTree = "<group>"; };
+		34FD2B2115E4F74D00B1C3F5 /* PresetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresetViewController.m; sourceTree = "<group>"; };
+		34FD2B2215E4F74D00B1C3F5 /* PresetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresetViewController.xib; sourceTree = "<group>"; };
+		34FD2B2915E5014A00B1C3F5 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		34FD2B2A15E5014A00B1C3F5 /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
+		34FD2B2D15E5093900B1C3F5 /* preset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preset.png; sourceTree = "<group>"; };
+		34FD2B2E15E5093900B1C3F5 /* preset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preset@2x.png"; sourceTree = "<group>"; };
+		34FD2B3115E5153400B1C3F5 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		34FD2B3215E5153400B1C3F5 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3478CFF715AD3BE00060CF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3478D03415AE982E0060CF5D /* MediaPlayer.framework in Frameworks */,
+				3478D02C15AE8C310060CF5D /* AudioToolbox.framework in Frameworks */,
+				3478CFFF15AD3BE00060CF5D /* UIKit.framework in Frameworks */,
+				3478D00115AD3BE00060CF5D /* Foundation.framework in Frameworks */,
+				3478D00315AD3BE00060CF5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3478CFEF15AD3BE00060CF5D = {
+			isa = PBXGroup;
+			children = (
+				34F4519415EF308100F74E4F /* iTunesArtwork.jpg */,
+				34F4518E15EF2E4500F74E4F /* Icon~iphone.png */,
+				34F4518F15EF2E4500F74E4F /* Icon~iphone@2x.png */,
+				34F4518815EF2B7700F74E4F /* Default.png */,
+				3418401815EEEBCF00CE7D91 /* Default@2x.png */,
+				347E78CE15EEF9070075B051 /* Icon.png */,
+				34F4518915EF2B7700F74E4F /* Icon~ipad.png */,
+				34F4518A15EF2B7700F74E4F /* Icon~ipad@2x.png */,
+				347F3D1715EC5869008819B0 /* Icon@2x.png */,
+				3478D00415AD3BE00060CF5D /* SuperEasyAlarm */,
+				3478CFFD15AD3BE00060CF5D /* Frameworks */,
+				3478CFFB15AD3BE00060CF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3478CFFB15AD3BE00060CF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3478CFFA15AD3BE00060CF5D /* SuperEasyAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3478CFFD15AD3BE00060CF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3478D03315AE982E0060CF5D /* MediaPlayer.framework */,
+				3478D02B15AE8C310060CF5D /* AudioToolbox.framework */,
+				3478CFFE15AD3BE00060CF5D /* UIKit.framework */,
+				3478D00015AD3BE00060CF5D /* Foundation.framework */,
+				3478D00215AD3BE00060CF5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3478D00415AD3BE00060CF5D /* SuperEasyAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				3478D00D15AD3BE00060CF5D /* LJAppDelegate.h */,
+				3478D00E15AD3BE00060CF5D /* LJAppDelegate.m */,
+				34FD2B3115E5153400B1C3F5 /* TimeModel.h */,
+				34FD2B3215E5153400B1C3F5 /* TimeModel.m */,
+				34AE858515E6C2FB00D0B5A1 /* SoundModel.h */,
+				34AE858615E6C2FC00D0B5A1 /* SoundModel.m */,
+				34AE859C15E9DE3C00D0B5A1 /* SharedViewController.h */,
+				34AE859D15E9DE3C00D0B5A1 /* SharedViewController.m */,
+				3478D01015AD3BE00060CF5D /* LJViewController.h */,
+				3478D01115AD3BE00060CF5D /* LJViewController.m */,
+				3478D01315AD3BE00060CF5D /* LJViewController.xib */,
+				34FD2B2015E4F74D00B1C3F5 /* PresetViewController.h */,
+				34FD2B2115E4F74D00B1C3F5 /* PresetViewController.m */,
+				34FD2B2215E4F74D00B1C3F5 /* PresetViewController.xib */,
+				3478D00515AD3BE00060CF5D /* Supporting Files */,
+			);
+			path = SuperEasyAlarm;
+			sourceTree = "<group>";
+		};
+		3478D00515AD3BE00060CF5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3418401615EEE6EC00CE7D91 /* thumb.png */,
+				3418401315EEE3C600CE7D91 /* bg_sand.png */,
+				34AE857E15E5ACDF00D0B5A1 /* save.png */,
+				34FD2B0F15E4876B00B1C3F5 /* watchalarm.aif */,
+				34FD2B1C15E4B6A300B1C3F5 /* pauseb.png */,
+				34FD2B2D15E5093900B1C3F5 /* preset.png */,
+				34FD2B2E15E5093900B1C3F5 /* preset@2x.png */,
+				34FD2B2915E5014A00B1C3F5 /* Time.png */,
+				34FD2B2A15E5014A00B1C3F5 /* Time@2x.png */,
+				34FD2B1D15E4B6A300B1C3F5 /* start.png */,
+				3478D00615AD3BE00060CF5D /* SuperEasyAlarm-Info.plist */,
+				3478D00715AD3BE00060CF5D /* InfoPlist.strings */,
+				3478D00A15AD3BE00060CF5D /* main.m */,
+				3478D00C15AD3BE00060CF5D /* SuperEasyAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3478CFF915AD3BE00060CF5D /* SuperEasyAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3478D01815AD3BE00060CF5D /* Build configuration list for PBXNativeTarget "SuperEasyAlarm" */;
+			buildPhases = (
+				3478CFF615AD3BE00060CF5D /* Sources */,
+				3478CFF715AD3BE00060CF5D /* Frameworks */,
+				3478CFF815AD3BE00060CF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperEasyAlarm;
+			productName = SuperEasyAlarm;
+			productReference = 3478CFFA15AD3BE00060CF5D /* SuperEasyAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3478CFF115AD3BE00060CF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = UWS;
+			};
+			buildConfigurationList = 3478CFF415AD3BE00060CF5D /* Build configuration list for PBXProject "SuperEasyAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3478CFEF15AD3BE00060CF5D;
+			productRefGroup = 3478CFFB15AD3BE00060CF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3478CFF915AD3BE00060CF5D /* SuperEasyAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3478CFF815AD3BE00060CF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3478D00915AD3BE00060CF5D /* InfoPlist.strings in Resources */,
+				3478D01515AD3BE00060CF5D /* LJViewController.xib in Resources */,
+				34FD2B1015E4876B00B1C3F5 /* watchalarm.aif in Resources */,
+				34FD2B1E15E4B6A300B1C3F5 /* pauseb.png in Resources */,
+				34FD2B1F15E4B6A300B1C3F5 /* start.png in Resources */,
+				34FD2B2415E4F74D00B1C3F5 /* PresetViewController.xib in Resources */,
+				34FD2B2B15E5014A00B1C3F5 /* Time.png in Resources */,
+				34FD2B2C15E5014A00B1C3F5 /* Time@2x.png in Resources */,
+				34FD2B2F15E5093900B1C3F5 /* preset.png in Resources */,
+				34FD2B3015E5093900B1C3F5 /* preset@2x.png in Resources */,
+				34AE857F15E5ACDF00D0B5A1 /* save.png in Resources */,
+				347F3D1B15EC58A3008819B0 /* Icon@2x.png in Resources */,
+				3418401415EEE3C600CE7D91 /* bg_sand.png in Resources */,
+				3418401715EEE6EC00CE7D91 /* thumb.png in Resources */,
+				3418401915EEEBCF00CE7D91 /* Default@2x.png in Resources */,
+				347E78CF15EEF9070075B051 /* Icon.png in Resources */,
+				34F4518B15EF2B7700F74E4F /* Default.png in Resources */,
+				34F4518C15EF2B7700F74E4F /* Icon~ipad.png in Resources */,
+				34F4518D15EF2B7700F74E4F /* Icon~ipad@2x.png in Resources */,
+				34F4519015EF2E4500F74E4F /* Icon~iphone.png in Resources */,
+				34F4519115EF2E4500F74E4F /* Icon~iphone@2x.png in Resources */,
+				34F4519515EF308100F74E4F /* iTunesArtwork.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3478CFF615AD3BE00060CF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3478D00B15AD3BE00060CF5D /* main.m in Sources */,
+				3478D00F15AD3BE00060CF5D /* LJAppDelegate.m in Sources */,
+				3478D01215AD3BE00060CF5D /* LJViewController.m in Sources */,
+				34FD2B2315E4F74D00B1C3F5 /* PresetViewController.m in Sources */,
+				34FD2B3315E5153400B1C3F5 /* TimeModel.m in Sources */,
+				34AE858715E6C2FC00D0B5A1 /* SoundModel.m in Sources */,
+				34AE859E15E9DE3D00D0B5A1 /* SharedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3478D00715AD3BE00060CF5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3478D00815AD3BE00060CF5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3478D01315AD3BE00060CF5D /* LJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3478D01415AD3BE00060CF5D /* en */,
+			);
+			name = LJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3478D01615AD3BE00060CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3478D01715AD3BE00060CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3478D01915AD3BE00060CF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperEasyAlarm/SuperEasyAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SuperEasyAlarm/SuperEasyAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3478D01A15AD3BE00060CF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lei Jing";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperEasyAlarm/SuperEasyAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SuperEasyAlarm/SuperEasyAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FCFA0B37-EEA2-4579-8431-1ABC47A5606E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3478CFF415AD3BE00060CF5D /* Build configuration list for PBXProject "SuperEasyAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3478D01615AD3BE00060CF5D /* Debug */,
+				3478D01715AD3BE00060CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3478D01815AD3BE00060CF5D /* Build configuration list for PBXNativeTarget "SuperEasyAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3478D01915AD3BE00060CF5D /* Debug */,
+				3478D01A15AD3BE00060CF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3478CFF115AD3BE00060CF5D /* Project object */;
+}
