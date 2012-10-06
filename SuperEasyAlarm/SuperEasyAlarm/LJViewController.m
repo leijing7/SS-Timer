@@ -84,9 +84,6 @@
     [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"bg_sand"]]];
     //UIImage *thumbImage = [UIImage imageNamed:@"thumb.png"];
     //[[UISlider appearance] setThumbImage:thumbImage forState:UIControlStateNormal];
-    
-    //[[self view] setBackgroundColor:[UIColor colorWithRed:0.875 green:0.88 blue:0.91 alpha:1]];
-    //[[self view] setBackgroundColor:[UIColor colorWithRed:0.3f green:0.4f blue:0.6f alpha:1.0f]];
 
     [self updateAllChanges];
     

@@ -51,6 +51,8 @@
 - (void)loadStartedTotalTimeLabel:(UILabel *)ttLabel destTimeLabel:(UILabel *)dtLabel startStopButton:(UIButton *)ssButton
 {
     [ttLabel setText:[[TimeModel sharedModel] totalSecondsString]];
+    UIColor *darkBlueColor = [UIColor colorWithRed:0.1f green:0.3f blue:0.6f alpha:1.0f];
+    [ttLabel setTextColor:darkBlueColor];
     [dtLabel setText:[[TimeModel sharedModel] destDateString]];
     [ssButton setImage:pauseImage forState:UIControlStateNormal];
 }
@@ -60,6 +62,7 @@
 - (void)loadStoppedTotalTimeLabel:(UILabel *)ttLabel destTimeLabel:(UILabel *)dtLabel startStopButton:(UIButton *)ssButton
 {
     [ttLabel setText:[[TimeModel sharedModel] totalSecondsString]];
+    [ttLabel setTextColor:[UIColor blackColor]];
     [dtLabel setText:@""];
     [ssButton setImage:startImage forState:UIControlStateNormal];
 }
